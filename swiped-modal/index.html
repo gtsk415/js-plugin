@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>swiped modal</title>
+  <link rel="stylesheet" href="/swiped-modal/style.css">
+</head>
+<body>
+  <div class="content">
+    <button class="open-btn">Открыть форму</button>
+  </div>
+  <div class="modals">
+    <div class="modal">
+      <button class="modal__btn close-btn"></button>
+      <button class="mobile-close" data-swipe-threshold="20"
+      data-swipe-timeout="500"
+      data-swipe-ignore="false"></button>
+      <form class="modal__form form">
+        <input type="text" class="form__input" id="userName" placeholder="Введите имя" autocomplete="off">
+        <input type="tel" class="form__input" id="telephoneNumber" placeholder="Введите телефон" autocomplete="off">
+        <div class="btn__wrapper">
+          <button type='submit' class="form__btn">Отправить</button>
+          <button type='reset' class="form__btn">Очистить</button>
+        </div>
+      </form>  
+    </div>
+  </div>
+
+  <script src="/swiped-modal/script.js"></script>
+  <script src="/swiped-modal/swiped-events.min.js"></script>
+</body>
+</html>
