@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+	position: relative;
+}
+
+section {
+  height: 100vh;
+  background-color: aqua;
+}
+
+section:nth-child(2) {
+  background-color: red;
+}
+
+section:nth-child(3) {
+  background-color: yellow;
+}
+
+button {
+  padding: 10px;
+  margin: 30px;
+}
+
+.scroll-off {
+	position: fixed;
+	left: 30px;
+	top: 30px;
+  cursor: pointer;
+}
+
+.scroll-on {
+	position: fixed;
+	left: 30px;
+	top: 100px;
+	pointer-events: none;
+}
+
+.disable-scroll {
+	position: relative;
+	overflow: hidden;
+	height: 100vh;
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+}
