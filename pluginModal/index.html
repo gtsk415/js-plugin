@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>pluginModal</title>
+</head>
+<body>
+  <div class="content">
+    <button class="modal-btn" data-path="first" data-animation="fadeInUp" data-speed="700">Открыть окно 1</button>
+    <button class="modal-btn" data-path="second">Открыть окно 2</button>
+  </div>
+  <div class="modal">
+    <div class="modal__container" data-target="first">
+      <button class="modal-close">Закрыть</button>
+      <button>Нажми на меня</button>
+      <input type="text">
+      <div class="modal-content">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum laudantium ad, quibusdam dolor aspernatur voluptates.
+      </div>
+    </div>
+    <div class="modal__container" data-target="second">
+      <button class="modal-close">Закрыть</button>
+      <div class="modal-content">
+        Lorem ipsum dolor sit amet consectetur.
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
