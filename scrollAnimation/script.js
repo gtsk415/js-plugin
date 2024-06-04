@@ -2,6 +2,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const hero = document.querySelector('.hero');
   const header = document.querySelector('.header');
   const scrollItems = document.querySelectorAll('.scroll-item');
+  const circle = document.querySelector('.progress');
 
 
   const scrollAnimation = () => {
@@ -30,12 +31,19 @@ document.addEventListener('DOMContentLoaded', () => {
   };
 
 
+  const progressAnimation = () => {
+
+  };
+
+
+  progressAnimation();
   headerFixed();
   scrollAnimation();
 
   window.addEventListener('scroll', () => {
     headerFixed();
     scrollAnimation();
+    progressAnimation();
   });
 
 
