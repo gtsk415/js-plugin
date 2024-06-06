@@ -235,4 +235,5 @@ a {
 	width: 0;
 	height: 100%;
 	background-color: crimson;
-}
+	transition: width 0.3s linear;
+}	
