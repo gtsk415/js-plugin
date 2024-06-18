@@ -1,0 +1,28 @@
+body {
+  padding: 20px;
+}
+
+button {
+  padding: 0;
+  border: none;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.btn {
+  margin-bottom: 10px;
+  padding: 8px;
+  background-color: khaki;
+  border-radius: 5px;
+}
+
+.btn:active {
+  transform: translateY(1px);
+  filter: saturate(150%);
+}
+
+.block {
+  display: none;
+}
