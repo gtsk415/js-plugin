@@ -23,6 +23,6 @@ button {
   filter: saturate(150%);
 }
 
-.block {
+.content {
   display: none;
 }

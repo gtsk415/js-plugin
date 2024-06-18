@@ -17,17 +17,29 @@ const fadeOut = (el, timeout) => {
   }, timeout);
 };
 
-const block = document.querySelector('.block');
+const content = document.querySelector('.content');
 const btn = document.querySelector('.btn');
 
-let flag = false;
+//  let flag = false;
+
+// btn.addEventListener('click', (e) => {
+//   if (!flag) {
+//     fadeIn(content, 1000, 'flex');
+//     flag = true;
+//   } else {
+//     fadeOut(content, 1000);
+//     flag = false;
+//   }
+// });
+
+
+// для инлайновых свойтств
 
 btn.addEventListener('click', (e) => {
-  if (!flag) {
-    fadeIn(block, 1000, 'flex');
-    flag = true;
+  let display = window.getComputedStyle(content).display;
+  if (display == 'none') {
+    fadeIn(content, 1000, 'flex');
   } else {
-    fadeOut(block, 1000);
-    flag = false;
+    fadeOut(content, 0);
   }
 });
