@@ -1,0 +1,27 @@
+body {
+  padding: 80px;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+}
+
+button {
+  width: 100px;
+  height: 25px;
+  cursor: pointer;
+}
+
+.tabs__panel {
+  display: none;
+}
+
+.tabs__panel--active {
+  display: block;
+}
+
+.tabs__nav-btn--active {
+  background-color: wheat;
+}
