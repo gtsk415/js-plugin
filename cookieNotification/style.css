@@ -1,0 +1,14 @@
+.cookie__content {
+  max-width: 250px;
+  border: 1px solid red;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  display: none;
+}
+
+button {
+  margin-top: 10px;
+  width: max-content;
+}

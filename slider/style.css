@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.btn-reset {
+  border-radius: 0;
+  text-align: inherit;
+  background: none;
+  box-shadow: none;
+  padding: 0;
+  cursor: pointer;
+  border: none;
+  color: inherit;
+  font: inherit;
+}
+
+.btn-slider {
+  padding: 5px 8px;
+  background: red;
+  border-radius: 5px;
+  color: white;
+}
+
+.container {
+  background: rgb(224, 220, 220);
+  width: 1200px;
+  padding: 30px;
+}
+
+.slider {
+  width: 150px;
+  height: 150px;
+  border: 2px solid black;
+  margin: 30px auto;
+  overflow: hidden;
+}
+
+.slider-line {
+  width: 600px;
+  height: 150px;
+  display: flex;
+  margin-bottom: 25px;
+  background: blanchedalmond;
+  position: relative;
+  left: 0;
+  transition: all ease 0.5s;
+}
