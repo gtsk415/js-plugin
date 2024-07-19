@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="normalize.css">
+  <link rel="stylesheet" href="style.css">
+  <title>all form data</title>
+</head>
+
+<body>
+  <div class="container">
+    <section class="section">
+      <h3>1. Input[type="text"]</h3>
+      <input type="text" class="i-1 input-reset">
+      <button class="btn b-1 btn-reset">from input</button>
+      <div class="out-block out-1"></div>
+    </section>
+    <section class="section">
+      <h3>1. Input[type="number"]</h3>
+      <input type="number" min="0" class="i-2 input-reset">
+      <button class="btn b-2 btn-reset">from input</button>
+      <div class="out-block out-2"></div>
+    </section>
+    <section class="section">
+      <h3 class="color-title">1. Input[type="color"]</h3>
+      <input type="color" class="i-3 input-reset">
+      <button class="btn b-3 btn-reset">from input</button>
+      <div class="out-block out-3"></div>
+    </section>
+    <section class="section">
+      <h3>1. Input[type="date"]</h3>
+      <input type="date" class="i-4 input-reset">
+      <button class="btn b-4 btn-reset">from input</button>
+      <div class="out-block out-4"></div>
+    </section>
+    <section class="section">
+      <h3>1. Input[type="range"]</h3>
+      <input type="range" class="i-5 input-reset">
+      <button class="btn b-5 btn-reset">from input</button>
+      <div class="out-block out-5"></div>
+    </section>
+    <section class="section">
+      <h3>1. Input[type="checkbox"]</h3>
+      <input id="i6" type="checkbox" class="i-6 input-reset">
+      <label for="i6">Checkbox</label>
+      <button class="btn b-6 btn-reset">from input</button>
+      <div class="out-block out-6"></div>
+    </section>  
+    <section class="section">
+      <h3>1. Input[type="radio"]</h3>
+      <div class="wrapper">
+        <div class="col-1">
+          <div>
+            <input id="i71" type="radio" class="i-7 input-reset" name="rb1" value="111" checked>
+            <label for="i71">Radio</label>
+          </div>
+          <div>
+            <input id="i72" type="radio" class="i-7 input-reset" name="rb1" value="222">
+            <label for="i72">Radio</label>
+          </div>
+          <div>
+            <input id="i73" type="radio" class="i-7 input-reset" name="rb1" value="333">
+            <label for="i73">Radio</label>
+          </div>
+        </div>
+        <div class="col-2">
+          <button class="btn b-7 btn-reset">from input</button>
+        </div>
+      </div>
+      <div class="out-block out-7"></div>
+    </section>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

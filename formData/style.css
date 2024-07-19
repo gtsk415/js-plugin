@@ -1,0 +1,84 @@
+.btn-reset {
+  -webkit-appearance: none;
+  border-radius: 0;
+  text-align: inherit;
+  background: none;
+  box-shadow: none;
+  padding: 0;
+  cursor: pointer;
+  border: none;
+  color: inherit;
+  font: inherit;
+}
+
+.container {
+  margin: 30px;
+  padding: 30px ;
+  background: lightgray;
+  height: 1800px;
+}
+
+
+section {
+  height: 130px;
+  margin-bottom: 50px;
+  border-bottom: 1px solid white;
+}
+
+.input-reset {
+  border: none;
+  border-radius: 2px;
+}
+
+.input-reset:focus-visible {
+  outline: 1px solid gray;
+}
+
+
+
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h3 {
+  margin-bottom: 15px;
+}
+
+.btn {
+  border-radius: 2px;
+  background: lightcoral;
+  padding: 4px;
+  font-size: 12px;
+  margin-left: 10px;
+}
+
+.btn:hover {
+  background: rgb(235, 104, 104);
+}
+
+.btn:active {
+  background: rgb(247, 74, 74);
+}
+
+
+/* УБРАТЬ СТРЕЛКИ */
+
+input[type="number"] {
+	-moz-appearance: textfield;
+	-webkit-appearance: textfield;
+	appearance: textfield;
+}
+ 
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+	display: none;
+}
+
+.wrapper { 
+  display: flex;
+}
+
+.col-2 {
+ margin: auto 0; 
+}
+
