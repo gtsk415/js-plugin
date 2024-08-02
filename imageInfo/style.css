@@ -1,0 +1,24 @@
+* {
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+  background: lightgray;
+  height: 100vh;
+  margin: 30px;
+  padding: 10px;
+}
+
+.image-out {
+  display: flex;
+  justify-content: space-between;
+}
+
+.out-pic {
+  max-width: 15%;
+}
+
+.content-title {
+  color: lightcoral;
+}
